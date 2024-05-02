@@ -1,0 +1,9 @@
+integration:
+  coindesk:
+    url: https://api.coindesk.com/v1/bpi/currentprice.json
+    currency: USD
+    value: rate_float
+  freecurrency:
+    url: https://api.freecurrencyapi.com/v1
+    token: fca_live_JMAtyXa22wWQ3Cx1OXTHoO14WxN0NoJZVc7KBSR0
+    headerTokenName: apikey
